@@ -10,17 +10,6 @@ a {
   color: black;
 }
 
-.react-player {
-  height: 77vh !important;
-  width: 100% !important;
-}
-
-.search-bar{
-  border:none;
-  outline:none;
-  width:350px;
-}
-
 ::-webkit-scrollbar {
   width: 0px;
   height: 5px;
@@ -43,6 +32,17 @@ a {
 
 .category-btn:hover span{
   color: white !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
 }
 
 .category-btn{
