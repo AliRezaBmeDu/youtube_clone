@@ -9,7 +9,7 @@ const Videos = ({ videos }) => {
       justifyContent="start" gap={2}>
       {videos.map((item, idx) => (
         <Box key = {idx}>
-        {/*Check This. Something is Wrong */}
+        {/*Check This. Something is Wrong : RESOLVED :D */}
           {item.id.videoId && <VideoCard video={item} />}
           {item.id.channelId && <ChannelCard channelDetail={item} />}
         </Box>
